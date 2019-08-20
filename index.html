@@ -6,6 +6,39 @@
 <!-- FAVICON -->
   <link rel="icon" href="imgs/favicon.png">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135926927-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135926927-2');
+</script>
+
+
+<!--  ############################################################################################################################################################################################# -->
+  <!-- Primary Meta Tags -->
+  <title>TIFC</title>
+  <meta name="title" content="The Ilahi Foundation of Canada">
+  <meta name="description" content="Helping the needy, one city at a time">
+  <meta name="keywords" content="Pakistan, Clean Water, education">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.my-tifc.org/">
+  <meta property="og:title" content="The Ilahi Foundation of Canada">
+  <meta property="og:description" content="Helping the needy, one city at a time">
+  <meta property="og:image" content="imgs/logo.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="http://www.my-tifc.org">
+  <meta property="twitter:title" content="The Ilahi Foundation of Canada">
+  <meta property="twitter:description" content="Helping the needy, one city at a time">
+  <meta property="twitter:image" content="imgs/logo.png">
+<!--  ############################################################################################################################################################################################# -->
+
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,33 +59,31 @@
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <title>TIFC</title>
-
 
 </head>
 
 <body id="bootstrap-override">
   <section id="navbarLife">
 
-      <nav class="navbar fixed-top navbar-expand-lg">
+      <nav class="navbar fixed-top navbar-expand-lg" data-options="scrolltop:false">
         <div class="container">
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <!-- <span class="navbar-toggler-icon"></span> -->
-    <a href="#" class="menu example5"><span></span></a>
+    <a href="javascript:void(0);" class="menu example5"><span></span></a>
     </button>
 
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="">About Us <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">How</a>
+        <a class="nav-link" href="">How</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="">Blog</a>
       </li>
 
       <!-- <li class="nav-item dropdown">
@@ -320,9 +351,16 @@ var val3 = document.getElementById("valueOne");
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script type="text/javascript">
+
 AOS.init({
   duration: 1200,
   easing: 'ease-in-out-back'
+});
+
+$(window).on('load', function () {
+
+    AOS.refresh();
+
 });
 </script>
 
