@@ -1,0 +1,7 @@
+.donation-form {
+  padding-top: 10rem;
+}
+.donation-form .container {
+  display: flex;
+  justify-content: center;
+}
