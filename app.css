@@ -32,6 +32,10 @@ body {
   background: rgba(4,59,53,0.70);
 
 }
+
+.navbar-brand {
+  color: white;
+}
 #bootstrap-override .navbar .nav-link  {
   color: white;
   padding-left: 1.5rem;
