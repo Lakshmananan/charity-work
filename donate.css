@@ -5,3 +5,24 @@
   display: flex;
   justify-content: center;
 }
+
+
+.volunteer-form {
+  padding-top: 5rem;
+  padding-bottom: 4.9rem;
+}
+.volunteer-form .container {
+  /* display: flex; */
+  justify-content: center;
+  width: 50%;
+}
+
+
+
+@media (max-width: 730px) {
+  .volunteer-form .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
