@@ -1,4 +1,4 @@
-.mission-top{
+.mission-top {
   background-color:rgba(4,59,53,0.70);
   background-size: cover;
   background-position: center center;
@@ -7,6 +7,15 @@
   padding: 7rem;
 }
 
+.salaam {
+  padding: 10px;
+  display:flex;
+}
+
+.fromLine {
+  font-weight: 600;
+  color: rgb(4,59,53);
+}
 
 @media (max-width: 730px) {
 .mission-top {
@@ -25,7 +34,9 @@
   font-size: 3rem;
   font-weight: 700;
 }
-
+.foundermessage  {
+  padding-top: 5rem;
+}
 
 
 /* Container holding the image and the text */

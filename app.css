@@ -174,7 +174,7 @@ body {
   z-index:12;
   top:30%;
   left:0;
-  width:100%;
+  /* width:100%; */
   text-align:center;
   padding-left: 10%;
 }
@@ -183,15 +183,15 @@ body {
 
   border: 0 solid #FFFFFF;
   font-family: OpenSans-ExtraBold;
-  font-size: 80px;
+  font-size: 60px;
   color: #13301B;
   letter-spacing: 1.5px;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  padding-top: 0;
+  padding-top: 50px;
   /* padding-left: 10%; */
   /* padding-left: 2%; */
-  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 @media (max-width: 730px) {
@@ -204,6 +204,7 @@ body {
     letter-spacing: 1.5px;
     text-align: left;
     text-transform: uppercase;
+    padding-top:0;
     /* padding-left: 10%; */
     /* padding-left: 2%; */
   }
@@ -249,6 +250,10 @@ h2 {
 }
 .descriptionSection {
 text-align: center;
+}
+
+.descriptionSection p {
+text-align: justify;
 }
 .clipartImages {
   margin-top: 10px;
