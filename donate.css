@@ -1,8 +1,9 @@
 .donation-form {
   padding-top: 5rem;
+  text-align: center;
 }
 .donation-form .container {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
