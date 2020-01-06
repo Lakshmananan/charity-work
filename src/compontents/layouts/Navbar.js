@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className='nav-extended'>
         <div className='nav-wrapper'>
           <a href='#!' className='brand-logo'>
-            TIFC Oragnization
+            THE ILAHI FOUNDATION OF CANADA
           </a>
           <a href='#!' data-target='mobile-demo' className='sidenav-trigger'>
             <i className='material-icons'>menu</i>

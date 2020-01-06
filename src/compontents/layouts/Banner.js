@@ -11,8 +11,10 @@ const Banner = () => {
           <li>
             <img src={backgroundImg} alt='' />
             <div className='caption center-align'>
-              <h3>This is our big Tagline!</h3>
-              <h5 className='light grey-text text-lighten-3'>
+              <h3 className='pink-text text-lighten-2'>
+                This is our big Tagline!
+              </h3>
+              <h5 className='pink-text text-lighten-2'>
                 Here's our small slogan.
               </h5>
             </div>
@@ -20,8 +22,8 @@ const Banner = () => {
           <li>
             <img src={backgroundImg2} alt='' />
             <div className='caption left-align'>
-              <h3>Left Aligned Caption</h3>
-              <h5 className='light grey-text text-lighten-3'>
+              <h3 className='pink-text text-lighten-2'>Left Aligned Caption</h3>
+              <h5 className='pink-text text-lighten-2'>
                 Here's our small slogan.
               </h5>
             </div>
@@ -29,8 +31,10 @@ const Banner = () => {
           <li>
             <img src={backgroundImg3} alt='' />
             <div className='caption right-align'>
-              <h3>Right Aligned Caption</h3>
-              <h5 className='light grey-text text-lighten-3'>
+              <h3 className='pink-text text-lighten-2'>
+                Right Aligned Caption
+              </h3>
+              <h5 className='pink-text text-lighten-2'>
                 Here's our small slogan.
               </h5>
             </div>
