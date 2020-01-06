@@ -1,9 +1,12 @@
 import React, { Fragment, useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import Navbar from './components/layouts/Navbar';
-import Banner from './components/layouts/Banner';
-import Cards from './components/layouts/Cards';
-import CardBlock from './components/layouts/CardBlock';
 import Footer from './components/layouts/Footer.js';
+
+import Home from './components/pages/Home.js';
+import About from './components/pages/About.js';
+import Message from './components/pages/Message.js';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -15,13 +18,17 @@ const App = () => {
   });
 
   return (
-    <Fragment>
-      <Navbar />
-      <Banner />
-      <Cards />
-      <CardBlock />
-      <Footer />
-    </Fragment>
+    <Router>
+      <Fragment>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/message' component={Message} />
+        </Switch>
+        <Footer />
+      </Fragment>
+    </Router>
   );
 };
 
