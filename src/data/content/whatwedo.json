@@ -1,0 +1,16 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed network card in server 007"
+    },
+    {
+      "id": 2,
+      "message": "Fixed hard drive on workstation 002"
+    },
+    {
+      "id": 3,
+      "message": "1122 wireless down"
+    }
+  ]
+}
