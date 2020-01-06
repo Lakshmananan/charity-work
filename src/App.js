@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
-import Navbar from './compontents/layouts/Navbar';
-import Banner from './compontents/layouts/Banner';
+import Navbar from './components/layouts/Navbar';
+import Banner from './components/layouts/Banner';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';

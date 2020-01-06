@@ -1,7 +1,7 @@
 import React from 'react';
-import backgroundImg from '../../img/banner/backgroundImg.png';
-import backgroundImg2 from '../../img/banner/backgroundImg2.png';
-import backgroundImg3 from '../../img/banner/backgroundImg3.png';
+import backgroundImg from '../../data/img/banner/backgroundImg.png';
+import backgroundImg2 from '../../data/img/banner/backgroundImg2.png';
+import backgroundImg3 from '../../data/img/banner/backgroundImg3.png';
 
 const Banner = () => {
   return (
