@@ -4,7 +4,7 @@ const CardItems = props => {
   return (
     <div className='col s4'>
       <div className='card'>
-      <span className='card-title'> {props.title}</span>
+        <span className='card-title'> {props.title}</span>
         <div className='card-image'>
           <img src={props.img} alt='' />
         </div>
