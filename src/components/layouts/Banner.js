@@ -41,6 +41,7 @@ const Banner = () => {
           </li>
         </ul>
       </div>
+      <br />
     </div>
   );
 };

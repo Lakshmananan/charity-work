@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardItems = props => {
   return (
-    <div className='col s4'>
+    <div className='col s12 m4'>
       <div className='card'>
         <span className='card-title'> {props.title}</span>
         <div className='card-image'>
