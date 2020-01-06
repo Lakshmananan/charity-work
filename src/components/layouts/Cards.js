@@ -6,9 +6,13 @@ import foodBank from '../../data/img/whatwedo/foodBank.jpg';
 import socialWelfare from '../../data/img/whatwedo/socialWelfare.jpg';
 
 const Cards = () => {
+  const mystyle = {
+    paddingLeft: '150px',
+    paddingRight: '150px'
+  };
   return (
     <div>
-      <div className='row'>
+      <div className='row' style={mystyle}>
         <CardItems
           title='Education'
           img={education}

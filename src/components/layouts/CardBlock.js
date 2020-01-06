@@ -3,9 +3,12 @@ import CardBlockItem from './CardBlockItem.js';
 import Logo from '../../data/img/footer/datalchemyLogo.png';
 
 const CardBlock = () => {
+  const mystyle = {
+    paddingLeft: '150px',
+    paddingRight: '150px'
+  };
   return (
-    <div>
-      {' '}
+    <div style={mystyle}>
       <div className='row'>
         <CardBlockItem
           card='card blue'
