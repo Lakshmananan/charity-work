@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import Navbar from './components/layouts/Navbar';
 import Banner from './components/layouts/Banner';
 import Cards from './components/layouts/Cards';
+import CardBlock from './components/layouts/CardBlock';
 import Footer from './components/layouts/Footer.js';
 
 import 'materialize-css/dist/css/materialize.min.css';
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <Cards />
+      <CardBlock />
       <Footer />
     </Fragment>
   );
