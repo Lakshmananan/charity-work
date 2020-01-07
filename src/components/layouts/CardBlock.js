@@ -9,6 +9,53 @@ const CardBlock = () => {
   };
   return (
     <div style={mystyle}>
+      <h1 className='center'>What We Do</h1>
+      <div className='row'>
+        <CardBlockItem
+          card='card purple'
+          title='Zakat'
+          image={Logo}
+          html=''
+          content=''
+        />
+        <CardBlockItem
+          card='card purple'
+          title='Orphans'
+          image={Logo}
+          html=''
+          content=''
+        />
+        <CardBlockItem
+          card='card purple'
+          title='Water'
+          image={Logo}
+          html=''
+          content=''
+        />
+      </div>
+      <div className='row'>
+        <CardBlockItem
+          card='card black'
+          title='Food'
+          image={Logo}
+          html=''
+          content=''
+        />
+        <CardBlockItem
+          card='card black'
+          title='Development'
+          image={Logo}
+          html=''
+          content=''
+        />
+        <CardBlockItem
+          card='card black'
+          title='Ramadan'
+          image={Logo}
+          html=''
+          content=''
+        />
+      </div>
       <div className='row'>
         <CardBlockItem
           card='card blue'
@@ -18,53 +65,7 @@ const CardBlock = () => {
           content=''
         />
         <CardBlockItem
-          card='card purple'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-        <CardBlockItem
-          card='card yellow'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-      </div>
-      <div className='row'>
-        <CardBlockItem
-          card='card red'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-        <CardBlockItem
-          card='card black'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-        <CardBlockItem
-          card='card pink'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-      </div>
-      <div className='row'>
-        <CardBlockItem
-          card='card yellow'
-          title=''
-          image={Logo}
-          html=''
-          content=''
-        />
-        <CardBlockItem
-          card='card purple'
+          card='card blue'
           title=''
           image={Logo}
           html=''
