@@ -1,57 +1,59 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='navbar-fixed'>
-      <nav>
-        <div className='nav-wrapper'>
-          <a href='#!' className='brand-logo '>
-            THE ILAHI FOUNDATION
-          </a>
-          <a href='#!' data-target='mobile-demo' className='sidenav-trigger'>
-            <i className='material-icons'>menu</i>
-          </a>
-          <ul id='nav-mobile' className='right hide-on-med-and-down'>
-            <li>
-              <a href='#!'>About</a>
-            </li>
-            <li>
-              <a href='#!'>Education</a>
-            </li>
-            <li>
-              <a href='#!'>Woman Empowerment</a>
-            </li>
-            <li>
-              <a href='#!'>Social Welfare</a>
-            </li>
-            <li>
-              <a href='#!'>Food</a>
-            </li>
-            <li>
-              <a href='#!'>Qurbani</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+    <div>
+      <div className='navbar-fixed'>
+        <nav>
+          <div className='nav-wrapper'>
+            <Link to='/' className='brand-logo '>
+              THE ILAHI FOUNDATION
+            </Link>
+            <Link to='/' data-target='mobile-demo' className='sidenav-trigger'>
+              <i className='material-icons'>menu</i>
+            </Link>
+            <ul id='nav-mobile' className='right hide-on-med-and-down'>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link href='/message'>Message</Link>
+              </li>
+              <li>
+                <Link to='#!'>Woman Empowerment</Link>
+              </li>
+              <li>
+                <Link to='#!'>Social Welfare</Link>
+              </li>
+              <li>
+                <Link to='#!'>Food</Link>
+              </li>
+              <li>
+                <Link to='#!'>Qurbani</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <ul className='sidenav' id='mobile-demo'>
         <li>
-          <a href='#!'>About</a>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <a href='#!'>Education</a>
+          <Link to='/message'>Message</Link>
         </li>
         <li>
-          <a href='#!'>Woman Empowerment</a>
+          <Link to='#!'>Woman Empowerment</Link>
         </li>
         <li>
-          <a href='#!'>Social Welfare</a>
+          <Link to='#!'>Social Welfare</Link>
         </li>
         <li>
-          <a href='#!'>Food</a>
+          <Link to='#!'>Food</Link>
         </li>
         <li>
-          <a href='#!'>Qurbani</a>
+          <Link to='#!'>Qurbani</Link>
         </li>
       </ul>
     </div>
