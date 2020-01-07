@@ -2,9 +2,13 @@ import React from 'react';
 import logo from '../../data/img/footer/datalchemyLogo.png';
 
 const Footer = () => {
+  const mystyle = {
+    paddingLeft: '100px',
+    paddingRight: '100px'
+  };
   return (
     <div>
-      <footer className='page-footer'>
+      <footer className='page-footer' style={mystyle}>
         <div className='container'>
           <div className='row'>
             <div className='col l6 s12'>

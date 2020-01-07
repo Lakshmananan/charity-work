@@ -21,7 +21,7 @@ const CardBlockItem = props => {
             {props.title}
             <i className='material-icons right'>close</i>
           </span>
-          <p>{props.content}</p>
+          <p className='text-justify'>{props.content}</p>
         </div>
       </div>
     </div>
