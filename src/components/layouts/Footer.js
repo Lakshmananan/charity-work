@@ -1,17 +1,16 @@
 import React from 'react';
-import logo from '../../data/img/footer/datalchemyLogo.png';
+import { Link } from 'react-router-dom';
+import datalchemyLogo from '../../data/img/footer/datalchemyLogo.png';
+import logo from '../../data/img/footer/logo.svg';
 
 const Footer = () => {
-  const mystyle = {
-    paddingLeft: '100px',
-    paddingRight: '100px'
-  };
   return (
     <div>
-      <footer className='page-footer' style={mystyle}>
-        <div className='container'>
+      <footer className='page-footer teal'>
+        <div className='container center'>
           <div className='row'>
             <div className='col l6 s12'>
+              <img src={logo} alt='' width='150px'></img>
               <h5 className='white-text'>THE ILLAHI FOUDNATION OF CANADA</h5>
               <p className='grey-text text-lighten-4'>
                 You can use rows and columns here to organize your footer
@@ -22,28 +21,39 @@ const Footer = () => {
               <h5 className='white-text'>Links</h5>
               <ul>
                 <li>
-                  <i class='material-icons small'>payment</i>
-                  <a className='grey-text text-lighten-3' href='#!'>
-                    Link 1
-                  </a>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <i class='material-icons small'>payment</i>
-                  <a className='grey-text text-lighten-3' href='#!'>
-                    Link 2
-                  </a>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Message
+                  </Link>
                 </li>
                 <li>
-                  <i class='material-icons small'>payment</i>
-                  <a className='grey-text text-lighten-3 large-text' href='#!'>
-                    Link 3
-                  </a>
+                  <Link className='grey-text text-lighten-3 large-text' to='#!'>
+                    Education
+                  </Link>
                 </li>
                 <li>
-                  <i class='material-icons small'>payment</i>
-                  <a className='grey-text text-lighten-3' href='#!'>
-                    Link 4
-                  </a>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Woman Empowerment
+                  </Link>
+                </li>
+                <li>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Social Welfare
+                  </Link>
+                </li>
+                <li>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Food
+                  </Link>
+                </li>
+                <li>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Qurbani
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -51,11 +61,29 @@ const Footer = () => {
         </div>
         <div className='footer-copyright black'>
           <div className='container'>
-            © 2020 The Illahi Foundation of Canada Inc. All rights reserved.
-            <i className='right' src={logo}></i>
-            <a className='green-text  right' href='http://www.datalchemy.ai/'>
-              Powered by datalchemy.ai
-            </a>
+            <div className='row'>
+              <div className='col s6'>
+                <br />© 2020 The Illahi Foundation of Canada Inc. All rights
+                reserved.
+              </div>
+              <div className='col s6'>
+                <br />
+                <img
+                  className='right'
+                  src={datalchemyLogo}
+                  alt=''
+                  width='50px'
+                  height='50px'
+                ></img>
+                <br />
+                <a
+                  className='green-text  right'
+                  href='http://www.datalchemy.ai/'
+                >
+                  Powered by datalchemy.ai
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
-      <div className='navbar-fixed'>
+      <div className='navbar-fixed '>
         <nav>
-          <div className='nav-wrapper'>
+          <div className='nav-wrapper teal'>
             <Link to='/' className='brand-logo '>
               THE ILAHI FOUNDATION
             </Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link to='/about'>About</Link>
               </li>
               <li>
-                <Link href='/message'>Message</Link>
+                <Link to='/message'>Message</Link>
               </li>
               <li>
                 <Link to='#!'>Woman Empowerment</Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <ul className='sidenav' id='mobile-demo'>
+      <ul className='sidenav ' id='mobile-demo'>
         <li>
           <Link to='/about'>About</Link>
         </li>
