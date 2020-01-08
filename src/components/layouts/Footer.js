@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import datalchemyLogo from '../../data/img/footer/datalchemyLogo.png';
+// Need to added correct .svg file
+// Add sticky footer
+// Add IG and Contribute button
 import logo from '../../data/img/footer/logo.svg';
 
 const Footer = () => {
@@ -10,7 +13,11 @@ const Footer = () => {
         <div className='container center'>
           <div className='row'>
             <div className='col l6 s12'>
-              <img src={logo} alt='' width='150px'></img>
+              <img
+                src='https://my-tifc.org/imgs/logo.png'
+                alt='logo'
+                width='150px'
+              ></img>
               <h5 className='white-text'>THE ILLAHI FOUDNATION OF CANADA</h5>
               <p className='grey-text text-lighten-4'>
                 You can use rows and columns here to organize your footer
@@ -18,6 +25,7 @@ const Footer = () => {
               </p>
             </div>
             <div className='col l4 offset-l2 s12'>
+              <br />
               <h5 className='white-text'>Links</h5>
               <ul>
                 <li>

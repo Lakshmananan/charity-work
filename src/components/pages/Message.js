@@ -1,12 +1,8 @@
 import React from 'react';
 
 const Message = () => {
-  const myStyle = {
-    paddingLeft: '150px',
-    paddingRight: '150px'
-  };
   return (
-    <div style={myStyle}>
+    <div className='container'>
       <h1>Message From the Founders</h1>
       <p>
         On behalf of the executive team, members and volunteers, I would like to
