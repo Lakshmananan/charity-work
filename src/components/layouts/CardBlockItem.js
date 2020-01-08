@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardBlockItem = props => {
   return (
-    <div className='col s4 m4'>
+    <div className='col s12 m4'>
       <div className={props.card}>
         <div className='card-image waves-effect waves-block waves-light'>
           <img className='activator' src={props.image} alt='' />
