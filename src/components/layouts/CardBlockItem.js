@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CardBlockItem = props => {
   return (
@@ -13,9 +14,9 @@ const CardBlockItem = props => {
             <i className='material-icons right'>more_vert</i>
           </span>
           <p>
-            <a className={props.button} href={props.html}>
+            <Link className={props.button} to={props.html}>
               Learn More
-            </a>
+            </Link>
           </p>
         </div>
         <div className='card-reveal'>

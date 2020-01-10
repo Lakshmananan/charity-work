@@ -24,42 +24,54 @@ const Footer = () => {
               <h5 className='white-text'>Links</h5>
               <ul>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link className='grey-text text-lighten-3' to='/about'>
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link className='grey-text text-lighten-3' to='/message'>
                     Message
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3 large-text' to='#!'>
+                  <Link
+                    className='grey-text text-lighten-3 large-text'
+                    to='/education'
+                  >
                     Education
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3 large-text' to='#!'>
+                  <Link
+                    className='grey-text text-lighten-3 large-text'
+                    to='/foodbank'
+                  >
                     Food Bank
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link
+                    className='grey-text text-lighten-3'
+                    to='/socialwelfare'
+                  >
                     Social Welfare
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link className='grey-text text-lighten-3' to='/water'>
                     Water
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link
+                    className='grey-text text-lighten-3'
+                    to='/womanempowerment'
+                  >
                     Woman Empowerment
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
+                  <Link className='grey-text text-lighten-3' to='/qurbani'>
                     Qurbani
                   </Link>
                 </li>

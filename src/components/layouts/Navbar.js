@@ -21,22 +21,22 @@ const Navbar = () => {
                 <Link to='/message'>Message</Link>
               </li>
               <li>
-                <Link to='#!'>Education</Link>
+                <Link to='/education'>Education</Link>
               </li>
               <li>
-                <Link to='#!'>Food Bank</Link>
+                <Link to='/foodbank'>Food Bank</Link>
               </li>
               <li>
-                <Link to='#!'>Social Welfare</Link>
+                <Link to='/socialwelfare'>Social Welfare</Link>
               </li>
               <li>
-                <Link to='#!'>Water</Link>
+                <Link to='/water'>Water</Link>
               </li>
               <li>
-                <Link to='#!'>Woman Empowerment</Link>
+                <Link to='/womanempowerment'>Woman Empowerment</Link>
               </li>
               <li>
-                <Link to='#!'>Qurbani</Link>
+                <Link to='qurbani'>Qurbani</Link>
               </li>
             </ul>
           </div>
