@@ -3,38 +3,65 @@ import React from 'react';
 const AidTracker = () => {
   return (
     <div>
-      <div className='row'>
-        <img src='imgs/first-aid-box.png' alt='' width='150px' />
-      </div>
-      <div className='container'>
+      <div className='container center'>
+        <h1>What We Did</h1>
+        <br />
         <div className='row'>
-          <div className='col 12 m3'>
-            <h2>Aid Tracker: </h2>
+          <div className='col m3 s12'>
+            <div
+              className='card blue-grey darken-1 z-depth-4'
+              style={{ height: '250px' }}
+            >
+              <div className='card-content white-text'>
+                <br />
+                <i className='medium material-icons'>build</i>
+                <span className='card-title'>Wells Constructed</span>
+                <span className='card-title'>40</span>
+              </div>
+            </div>{' '}
           </div>
-          <div className='col 12 m3'>
-            <span className='big-number' id='valueOne'>
-              2
-            </span>
-            <br />
-            <p>Wells Built</p>
+          <div className='col m3 s12'>
+            <div
+              className='card blue-grey darken-1 z-depth-4'
+              style={{ height: '250px' }}
+            >
+              <div className='card-content white-text'>
+                <br />
+                <i className='medium material-icons'>school</i>
+                <span className='card-title'>Schools Created</span>
+                <span className='card-title'>70</span>
+              </div>
+            </div>
           </div>
-          <div className='col 12 m3'>
-            <span className='big-number' id='valueTwo'>
-              3
-            </span>
-            <br />
-            <p>Schools Created</p>
+          <div className='col m3 s12'>
+            <div
+              className='card blue-grey darken-1 z-depth-4'
+              style={{ height: '250px' }}
+            >
+              <div className='card-content white-text'>
+                <br />
+                <i className='medium material-icons'>people</i>
+                <span className='card-title'>Students Enrolled</span>
+                <span className='card-title'>500</span>
+              </div>
+            </div>
           </div>
-          <div className='col 12 m3'>
-            <span className='big-number' id='valueThree'>
-              35
-            </span>
-            <br />
-            <p>Children Enrolled</p>
+          <div className='col m3 s12'>
+            <div
+              className='card blue-grey darken-1 z-depth-4'
+              style={{ height: '250px' }}
+            >
+              <div className='card-content white-text'>
+                <br />
+                <i className='medium material-icons'>fingerprint</i>
+                <span className='card-title'>People Helped</span>
+                <span className='card-title'>1000</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className='row updatedSinceRow'>
-          <p>Updated 10AM Today | Since Aug 2017</p>
+        <div className='row'>
+          <h6>Updated 10AM Today | Since Aug 2017</h6>
         </div>
       </div>
     </div>

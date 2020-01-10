@@ -21,13 +21,19 @@ const Navbar = () => {
                 <Link to='/message'>Message</Link>
               </li>
               <li>
-                <Link to='#!'>Woman Empowerment</Link>
+                <Link to='#!'>Education</Link>
+              </li>
+              <li>
+                <Link to='#!'>Food Bank</Link>
               </li>
               <li>
                 <Link to='#!'>Social Welfare</Link>
               </li>
               <li>
-                <Link to='#!'>Food</Link>
+                <Link to='#!'>Water</Link>
+              </li>
+              <li>
+                <Link to='#!'>Woman Empowerment</Link>
               </li>
               <li>
                 <Link to='#!'>Qurbani</Link>
@@ -44,13 +50,19 @@ const Navbar = () => {
           <Link to='/message'>Message</Link>
         </li>
         <li>
-          <Link to='#!'>Woman Empowerment</Link>
+          <Link to='#!'>Education</Link>
+        </li>
+        <li>
+          <Link to='#!'>Food Bank</Link>
         </li>
         <li>
           <Link to='#!'>Social Welfare</Link>
         </li>
         <li>
-          <Link to='#!'>Food</Link>
+          <Link to='#!'>Water</Link>
+        </li>
+        <li>
+          <Link to='#!'>Woman Empowerment</Link>
         </li>
         <li>
           <Link to='#!'>Qurbani</Link>

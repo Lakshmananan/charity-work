@@ -18,13 +18,9 @@ const Footer = () => {
                 width='150px'
               ></img>
               <h5 className='white-text'>THE ILLAHI FOUDNATION OF CANADA</h5>
-              <p className='grey-text text-lighten-4'>
-                You can use rows and columns here to organize your footer
-                content.
-              </p>
+              <p className='grey-text text-lighten-4'></p>
             </div>
             <div className='col l4 offset-l2 s12'>
-              <br />
               <h5 className='white-text'>Links</h5>
               <ul>
                 <li>
@@ -43,8 +39,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className='grey-text text-lighten-3' to='#!'>
-                    Woman Empowerment
+                  <Link className='grey-text text-lighten-3 large-text' to='#!'>
+                    Food Bank
                   </Link>
                 </li>
                 <li>
@@ -54,7 +50,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link className='grey-text text-lighten-3' to='#!'>
-                    Food
+                    Water
+                  </Link>
+                </li>
+                <li>
+                  <Link className='grey-text text-lighten-3' to='#!'>
+                    Woman Empowerment
                   </Link>
                 </li>
                 <li>
