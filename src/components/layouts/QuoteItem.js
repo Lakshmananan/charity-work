@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-const BlockItem = props => {
+const QuoteItem = props => {
   return (
     <Fragment>
       <h5>
@@ -14,4 +14,4 @@ const BlockItem = props => {
   );
 };
 
-export default BlockItem;
+export default QuoteItem;
