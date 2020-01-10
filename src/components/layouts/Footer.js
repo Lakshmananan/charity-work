@@ -4,7 +4,6 @@ import datalchemyLogo from '../../data/img/footer/datalchemyLogo.png';
 // Need to added correct .svg file
 // Add sticky footer
 // Add IG and Contribute button
-import logo from '../../data/img/footer/logo.svg';
 
 const Footer = () => {
   return (

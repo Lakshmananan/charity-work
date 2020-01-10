@@ -2,14 +2,14 @@ import React from 'react';
 
 import Banner from '../layouts/Banner';
 import CardBlock from '../layouts/CardBlock';
-import AidTracker from '../layouts/AidTracker';
+import AidTrackerNew from '../layouts/AidTrackerNew';
 import Block from '../layouts/Block';
 
 const Home = () => {
   return (
     <div>
       <Banner />
-      <AidTracker />
+      <AidTrackerNew />
       <CardBlock />
       <Block />
     </div>
