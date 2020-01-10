@@ -3,7 +3,7 @@ import React from 'react';
 const FoodBank = () => {
   return (
     <div>
-      <p>Food Bank</p>
+      <h1>Food Bank</h1>
     </div>
   );
 };

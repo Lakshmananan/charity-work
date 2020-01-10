@@ -7,8 +7,14 @@ const Navbar = () => {
       <div className='navbar-fixed '>
         <nav>
           <div className='nav-wrapper teal'>
-            <Link to='/' className='brand-logo '>
+            <Link to='/' className='brand-logo hide-on-small-only'>
               THE ILAHI FOUNDATION
+            </Link>
+            <Link
+              to='/'
+              className='brand-logo show-on-small hide-on-med-and-up'
+            >
+              ILAHI CHARITY
             </Link>
             <Link to='/' data-target='mobile-demo' className='sidenav-trigger'>
               <i className='material-icons'>menu</i>
@@ -50,22 +56,22 @@ const Navbar = () => {
           <Link to='/message'>Message</Link>
         </li>
         <li>
-          <Link to='#!'>Education</Link>
+          <Link to='/education'>Education</Link>
         </li>
         <li>
-          <Link to='#!'>Food Bank</Link>
+          <Link to='/foodbank'>Food Bank</Link>
         </li>
         <li>
-          <Link to='#!'>Social Welfare</Link>
+          <Link to='/socialwelfare'>Social Welfare</Link>
         </li>
         <li>
-          <Link to='#!'>Water</Link>
+          <Link to='/water'>Water</Link>
         </li>
         <li>
-          <Link to='#!'>Woman Empowerment</Link>
+          <Link to='/womanempowerment'>Woman Empowerment</Link>
         </li>
         <li>
-          <Link to='#!'>Qurbani</Link>
+          <Link to='qurbani'>Qurbani</Link>
         </li>
       </ul>
     </div>

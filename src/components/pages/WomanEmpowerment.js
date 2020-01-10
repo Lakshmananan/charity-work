@@ -3,7 +3,7 @@ import React from 'react';
 const WomanEmpowerment = () => {
   return (
     <div>
-      <p>Woman Empowerment</p>
+      <h1>Woman Empowerment</h1>
     </div>
   );
 };

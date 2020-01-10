@@ -3,7 +3,7 @@ import React from 'react';
 const SocialWelfare = () => {
   return (
     <div>
-      <p>Social Welfare</p>
+      <h1>Social Welfare</h1>
     </div>
   );
 };

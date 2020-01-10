@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Banner from '../layouts/Banner';
-import CardBlock from '../layouts/CardBlock';
 import AidTracker from '../layouts/AidTracker';
+import Campaign from '../layouts/Campaign';
+import CardBlock from '../layouts/CardBlock';
 import Quote from '../layouts/Quote';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <div>
       <Banner />
       <AidTracker />
+      <Campaign />
       <CardBlock />
       <Quote />
     </div>
