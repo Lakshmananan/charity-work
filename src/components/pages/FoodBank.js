@@ -2,9 +2,9 @@ import React from 'react';
 
 const FoodBank = () => {
   return (
-    <div>
+    <main>
       <h1>Food Bank</h1>
-    </div>
+    </main>
   );
 };
 

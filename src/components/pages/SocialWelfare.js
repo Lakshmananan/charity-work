@@ -2,9 +2,9 @@ import React from 'react';
 
 const SocialWelfare = () => {
   return (
-    <div>
+    <main>
       <h1>Social Welfare</h1>
-    </div>
+    </main>
   );
 };
 

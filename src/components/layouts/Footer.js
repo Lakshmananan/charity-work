@@ -7,8 +7,8 @@ import datalchemyLogo from '../../data/img/footer/datalchemyLogo.png';
 
 const Footer = () => {
   return (
-    <section>
-      <footer className='page-footer teal'>
+    <footer>
+      <div className='page-footer teal'>
         <div className='container center'>
           <div className='row'>
             <div className='col l6 s12'>
@@ -106,8 +106,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
-    </section>
+      </div>
+    </footer>
   );
 };
 

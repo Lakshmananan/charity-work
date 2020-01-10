@@ -2,9 +2,9 @@ import React from 'react';
 
 const WomanEmpowerment = () => {
   return (
-    <div>
+    <main>
       <h1>Woman Empowerment</h1>
-    </div>
+    </main>
   );
 };
 

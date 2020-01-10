@@ -2,9 +2,9 @@ import React from 'react';
 
 const Qurbani = () => {
   return (
-    <div>
+    <main>
       <h1>Qurbani</h1>
-    </div>
+    </main>
   );
 };
 

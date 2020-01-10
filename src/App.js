@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/layouts/Navbar';
@@ -25,21 +25,19 @@ const App = () => {
 
   return (
     <Router>
-      <Fragment>
-        <Navbar />
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/message' component={Message} />
-          <Route exact path='/education' component={Education} />
-          <Route exact path='/foodbank' component={FoodBank} />
-          <Route exact path='/socialwelfare' component={SocialWelfare} />
-          <Route exact path='/water' component={Water} />
-          <Route exact path='/womanempowerment' component={WomanEmpowerment} />
-          <Route exact path='/qurbani' component={Qurbani} />
-        </Switch>
-        <Footer />
-      </Fragment>
+      <Navbar />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/message' component={Message} />
+        <Route exact path='/education' component={Education} />
+        <Route exact path='/foodbank' component={FoodBank} />
+        <Route exact path='/socialwelfare' component={SocialWelfare} />
+        <Route exact path='/water' component={Water} />
+        <Route exact path='/womanempowerment' component={WomanEmpowerment} />
+        <Route exact path='/qurbani' component={Qurbani} />
+      </Switch>
+      <Footer />
     </Router>
   );
 };

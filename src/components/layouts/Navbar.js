@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <section>
+    <header>
       <div className='navbar-fixed '>
         <nav>
           <div className='nav-wrapper teal'>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <Link to='qurbani'>Qurbani</Link>
         </li>
       </ul>
-    </section>
+    </header>
   );
 };
 

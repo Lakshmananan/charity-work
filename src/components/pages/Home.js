@@ -8,13 +8,13 @@ import Quote from '../layouts/Quote';
 
 const Home = () => {
   return (
-    <section>
+    <main>
       <Banner />
       <AidTracker />
       <Campaign />
       <CardBlock />
       <Quote />
-    </section>
+    </main>
   );
 };
 
