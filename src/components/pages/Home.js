@@ -1,9 +1,9 @@
 import React from 'react';
 
 import Banner from '../layouts/Banner';
-import Cards from '../layouts/Cards';
 import CardBlock from '../layouts/CardBlock';
 import AidTracker from '../layouts/AidTracker';
+import Block from '../layouts/Block';
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <Banner />
       <AidTracker />
       <CardBlock />
+      <Block />
     </div>
   );
 };
