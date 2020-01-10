@@ -4,30 +4,30 @@ const AidTrackerNew = () => {
   return (
     <div>
       <div className='container center'>
+        <h1>What We Did</h1>
+        <br />
         <div className='row'>
           <div className='col m3 s12'>
             <div
-              className='card blue-grey darken-1'
+              className='card blue-grey darken-1 z-depth-4'
               style={{ height: '250px' }}
             >
               <div className='card-content white-text'>
                 <br />
-                <br />
-                <i class='medium material-icons'>build</i>
-                <span className='card-title'>Wells Built</span>
+                <i className='medium material-icons'>build</i>
+                <span className='card-title'>Wells Constructed</span>
                 <span className='card-title'>40</span>
               </div>
             </div>{' '}
           </div>
           <div className='col m3 s12'>
             <div
-              className='card blue-grey darken-1'
+              className='card blue-grey darken-1 z-depth-4'
               style={{ height: '250px' }}
             >
               <div className='card-content white-text'>
                 <br />
-                <br />
-                <i class='medium material-icons'>school</i>
+                <i className='medium material-icons'>school</i>
                 <span className='card-title'>Schools Created</span>
                 <span className='card-title'>70</span>
               </div>
@@ -35,13 +35,12 @@ const AidTrackerNew = () => {
           </div>
           <div className='col m3 s12'>
             <div
-              className='card blue-grey darken-1'
+              className='card blue-grey darken-1 z-depth-4'
               style={{ height: '250px' }}
             >
               <div className='card-content white-text'>
                 <br />
-                <br />
-                <i class='medium material-icons'>people</i>
+                <i className='medium material-icons'>people</i>
                 <span className='card-title'>Students Enrolled</span>
                 <span className='card-title'>500</span>
               </div>
@@ -49,13 +48,12 @@ const AidTrackerNew = () => {
           </div>
           <div className='col m3 s12'>
             <div
-              className='card blue-grey darken-1'
+              className='card blue-grey darken-1 z-depth-4'
               style={{ height: '250px' }}
             >
               <div className='card-content white-text'>
                 <br />
-                <br />
-                <i class='medium material-icons'>fingerprint</i>
+                <i className='medium material-icons'>fingerprint</i>
                 <span className='card-title'>People Helped</span>
                 <span className='card-title'>1000</span>
               </div>

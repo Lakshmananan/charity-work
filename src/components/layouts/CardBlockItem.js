@@ -13,7 +13,9 @@ const CardBlockItem = props => {
             <i className='material-icons right'>more_vert</i>
           </span>
           <p>
-            <a href={props.html}>This is a link</a>
+            <a className={props.button} href={props.html}>
+              Learn More
+            </a>
           </p>
         </div>
         <div className='card-reveal'>

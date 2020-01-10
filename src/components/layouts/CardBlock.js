@@ -1,11 +1,11 @@
 import React from 'react';
 import CardBlockItem from './CardBlockItem.js';
 
-import Logo from '../../data/img/footer/datalchemyLogo.png';
 import SocialWelfare from '../../data/img/whatwedo/socialWelfare.jpg';
 import School from '../../data/img/whatwedo/school.jpg';
 import Food from '../../data/img/whatwedo/food.jpg';
 import Water from '../../data/img/whatwedo/water.jpg';
+import WomanEmpowerment from '../../data/img/whatwedo/womanEmpowerment.jpg';
 import Qurbani from '../../data/img/whatwedo/qurbani.jpg';
 
 const CardBlock = () => {
@@ -15,21 +15,24 @@ const CardBlock = () => {
       <br />
       <div className='row'>
         <CardBlockItem
-          card='card medium teal'
+          card='card medium red lighten-2 hoverable'
+          button='waves-effect waves-light red lighten-1 btn-large'
           title='Education'
           image={School}
           html=''
           content='The Ilahi Foundation has partnered with ISHRAQ Schooling System (ISS) to ensure children from poor backgrounds are receiving proper education in a safe environment. ISS is a non-profit and non-commercial institution which focuses on educating children with less privileges in a competitive standard to make them excel in knowledge, character, and positive action.'
         />
         <CardBlockItem
-          card='card medium teal'
+          card='card medium purple lighten-2 hoverable'
+          button='waves-effect waves-light purple lighten-1 btn-large'
           title='Food Bank'
           image={Food}
           html=''
           content='TIFC is committed to help those in need of food. Our goal is to provide food and supplies to less-fortunate families across the globe. We aim to collect and provide at least $50 a month to ensure the needs of poor families.'
         />
         <CardBlockItem
-          card='card medium teal'
+          card='card medium teal lighten-2 hoverable'
+          button='waves-effect waves-light teal lighten-1 btn-large'
           title='Social Welfare'
           image={SocialWelfare}
           html=''
@@ -38,21 +41,24 @@ const CardBlock = () => {
       </div>
       <div className='row'>
         <CardBlockItem
-          card='card medium teal'
+          card='card medium blue lighten-2 hoverable'
+          button='waves-effect waves-light blue lighten-1 btn-large'
           title='Water'
           image={Water}
           html=''
           content=''
         />
         <CardBlockItem
-          card='card medium teal'
+          card='card medium green lighten-2 hoverable'
+          button='waves-effect waves-light green lighten-1 btn-large'
           title='Woman Empowerment'
-          image={Logo}
+          image={WomanEmpowerment}
           html=''
           content=''
         />
         <CardBlockItem
-          card='card medium teal'
+          card='card medium brown lighten-2 hoverable'
+          button='waves-effect waves-light brown lighten-1 btn-large'
           title='Qurbani'
           image={Qurbani}
           html=''
