@@ -7,7 +7,7 @@ const Campaign = () => {
     height: '300px'
   };
   return (
-    <div className='container teal center white-text' style={myStyle}>
+    <div className='container teal center pulse white-text' style={myStyle}>
       <h1>Campaign</h1>
       <h3>Lahore Winter Aid</h3>
       <p>
