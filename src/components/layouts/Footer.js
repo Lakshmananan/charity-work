@@ -17,7 +17,7 @@ const Footer = () => {
                 alt='logo'
                 width='150px'
               ></img>
-              <h5 className='white-text'>THE ILLAHI FOUDNATION OF CANADA</h5>
+              <h5 className='white-text'>THE ILAHI FOUNDATION OF CANADA</h5>
               <p className='grey-text text-lighten-4'></p>
             </div>
             <div className='col l4 offset-l2 s12'>
@@ -83,7 +83,7 @@ const Footer = () => {
           <div className='container'>
             <div className='row'>
               <div className='col s6'>
-                <br />© 2020 The Illahi Foundation of Canada Inc. All rights
+                <br />© 2020 The Ilahi Foundation of Canada Inc. All rights
                 reserved.
               </div>
               <div className='col s6'>
