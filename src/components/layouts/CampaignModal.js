@@ -3,18 +3,20 @@ import React from 'react';
 const CampaignModal = () => {
   return (
     <div id='donateprop' className='modal'>
-      <div className='modal-content center'>
-        <script src='https://donorbox.org/widget.js'></script>
+      <div className='modal-content'>
+        <script
+          src='https://donorbox.org/widget.js'
+          paypalexpress='false'
+        ></script>
         <iframe
           title='donate'
-          display='block'
           allowpaymentrequest=''
           frameBorder='0'
-          height='475px'
+          height='700px'
           name='donorbox'
           scrolling='no'
           seamless='seamless'
-          src='https://donorbox.org/embed/tifc-lahore-winter-project?default_interval=o&show_content=true'
+          src='https://donorbox.org/embed/tifc-lahore-winter-project?default_interval=o'
           width='100%'
         ></iframe>
       </div>
