@@ -20,7 +20,7 @@ const CardBlockItem = props => {
           </p>
         </div>
         <div className='card-reveal'>
-          <span className='card-title white-text'>
+          <span className='card-title black-text'>
             {props.title}
             <i className='material-icons right grey'>close</i>
           </span>
